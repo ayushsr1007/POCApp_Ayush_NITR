@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POC App</title>
+
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+<body>
+<form action="../server.js">
+    <div class="alert-box">
+        <p class="alert"></p>
+    </div>
+
+    <div class="form">
+        <h4 class="heading">Login to your account</h4>
+        <div>
+            <label for="email">Email</label><br />
+            <input type="email" placeholder="email" autocomplete="off" class="email" id="email" required></div>
+        <div>
+            <label for="password">Password</label><br />
+            <input type="password" placeholder="password" autocomplete="off" class="password" id="password" required>
+        </div>
+        <input type="checkbox" name="rememberme" id="remember"> Remember me
+        <br />
+        <button class="btn">Log in</button>
+        <br />
+        <a href="register.html" class="link">New to MyApp? Sign Up</a>
+        <br />
+        <a href="facebookintegration.html">Facebook Integration</a>
+        <br />
+        <a href="deletedisconnect.html">Delete/Disconnect Page</a>
+    </div>
+    <script src="form.js"></script>
+</form>   
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POC App</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<form action="../server.js">
+    <div class="alert-box">
+        <p class="alert"></p>
+    </div>
+
+    <div class="form">
+        <h4 class="heading">Create Account</h4>
+        <div>
+            <label for="name">Name</label><br />
+            <input type="text" placeholder="name" autocomplete="off" class="name" id="name" required></div>
+        <div>
+            <label for="email">Email</label><br />
+            <input type="email" placeholder="email" autocomplete="off" class="email" id="email" required>
+        </div>
+        <div>
+            <label for="password">Password</label><br />
+            <input type="password" placeholder="password" autocomplete="off" class="password" id="password" required>
+        </div>
+        <input type="checkbox" name="rememberme" id="remember"> Remember me
+        <br />
+        <button class="btn">Sign Up</button>
+        <br />
+        <a href="login.html" class="link">Already have an account ? Log in</a>
+    </div>
+
+    <script src="form.js"></script>
+</form>
+</body>
+</html>
